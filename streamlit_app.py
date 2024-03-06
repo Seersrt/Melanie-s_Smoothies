@@ -4,7 +4,7 @@ import streamlit as st
 from snowflake.snowpark.functions import col
 
 # Write directly to the app
-st.title(":cup_with_straw: Custom Smoothie Order Form :cup_with_straw:")
+st.title(":cup_with_straw: My Parents Healthy New Diner :cup_with_straw:")
 st.write("Select the fruits that you want in your smoothie")
 #st.write("""Replace this example with your own code!**And if you're new to Streamlit,** check out our easy-to-follow guides at [docs.streamlit.io](https://docs.streamlit.io). """ '\n' "This is my first time writing using StreamLit to create a web application")
 
