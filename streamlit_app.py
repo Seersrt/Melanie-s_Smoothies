@@ -41,7 +41,8 @@ if ingredients_list:
   name_on_order = title
   for fruit_chosen in ingredients_list:
     ingredients_string += fruit_chosen + ' '
-    fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+    st.subheader(fruit_chosen + 'Nutritional Information')
+    fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+fruit_chosen)
     fv_df = st.dataframe(data=fruityvice_response.json(),use_container_width=True)
 
 
